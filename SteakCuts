@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Steak Cuts</title>
-</head>
+ <html>
+  <head>
+    <title>Steak Cuts</title>
+  </head>
 <body>
 
-<h1>The Different Cuts of Steak</h1>
-<img src="https://atlassteak.com/wp-content/uploads/13.jpg" alt="Steak Cuts" width="420" height="300">
-<p>Choosing your cut of this delicious piece of meat will definitely affect the taste and texture of your steak. Here, you will find the three most common cut that are well known in the meathead community.</p>
+  <h1>The Different Cuts of Steak</h1>
+  <img src="https://atlassteak.com/wp-content/uploads/13.jpg" alt="Steak Cuts" width="420" height="300">
+  <p>Choosing your cut of this delicious piece of meat will definitely affect the taste and texture of your steak. Here, you will find the three most common cut that are well known in the meathead community.</p>
 
-<h2>1) Strip Steak (aka NY Strip)</h2>
-<img src="https://www.lobels.com/images/thumbs/0001137_natural-prime-dry-aged-bone-in-strip-steak_882.jpeg" alt="Strip Steak" width="420" height="300">
-<p>This cut has the beefiest taste out of the three listed. It has a nice generous amount of fat at the edge of this steak which gives its prized taste. The tenderness level on this steak is not quite as tender as a ribeye or a filet, but it sure is not as tough as a cheaper counterpart.</p>
+  <h2>1) Strip Steak (aka NY Strip)</h2>
+  <img src="https://www.lobels.com/images/thumbs/0001137_natural-prime-dry-aged-bone-in-strip-steak_882.jpeg" alt="Strip Steak" width="420" height="300">
+  <p>This cut has the beefiest taste out of the three listed. It has a nice generous amount of fat at the edge of this steak which gives its prized taste. The tenderness level on this steak is not quite as tender as a ribeye or a filet, but it sure is not as tough as a cheaper counterpart.</p>
 
-<h2>2) Ribeye Steak</h2>
-<img src="https://www.lobels.com/images/thumbs/0002492_usda-prime-dry-aged-bone-in-rib-steak_882.jpeg" alt="Ribeye Steak" width="420" height="300">
-<p>The ribeye steak has the right  amount of flavor and tenderness. It is the most balanced steak out of these three stakes as it has an amount of fat that is mostly blend in with the meat, which gives its tender light beefy flavor.</p>
+  <h2>2) Ribeye Steak</h2>
+  <img src="https://www.lobels.com/images/thumbs/0002492_usda-prime-dry-aged-bone-in-rib-steak_882.jpeg" alt="Ribeye Steak" width="420" height="300">
+  <p>The ribeye steak has the right  amount of flavor and tenderness. It is the most balanced steak out of these three stakes as it has an amount of fat that is mostly blend in with the meat, which gives its tender light beefy flavor.</p>
 
-<h2>3) Filet Mignon</h2>
-<img src="https://www.lobels.com/images/thumbs/0002289_usda-prime-filet-mignon_882.jpeg" alt="Filet Mignon" width="420" height="300">
-<p>This steak will be, and will always be, the most expensive part of the beef. It is considered the creme de la creme of the entire beef as it is the most tender steak available. Flavorwise, it is not quite there as compared to the striploin and the ribeye as it has little to no fat. </p>
+  <h2>3) Filet Mignon</h2>
+  <img src="https://www.lobels.com/images/thumbs/0002289_usda-prime-filet-mignon_882.jpeg" alt="Filet Mignon" width="420" height="300">
+  <p>This steak will be, and will always be, the most expensive part of the beef. It is considered the creme de la creme of the entire beef as it is the most tender steak available. Flavorwise, it is not quite there as compared to the striploin and the ribeye as it has little to no fat. </p>
 
-<h3>Which one is your favorite?</h3>
-<form>
-  <input type="radio" name="favorite" value="strip" checked> Strip Steak<br>
-  <input type="radio" name="favorite" value="ribeye"> Ribeye Steak<br>
-  <input type="radio" name="favorite" value="filet"> Filet Mignon<br>
-  <input type="radio" name="favorite" value="other"> Other
-</form>
+  <h3>Which one is your favorite?</h3>
+  <form>
+    <input type="radio" name="favorite" value="strip" checked> Strip Steak<br>
+    <input type="radio" name="favorite" value="ribeye"> Ribeye Steak<br>
+    <input type="radio" name="favorite" value="filet"> Filet Mignon<br>
+    <input type="radio" name="favorite" value="other"> Other
+  </form>
 
-<button type="button" onclick="alert('Thank you!')">Submit</button>
+  <button type="button" onclick="alert('Thank you!')">Submit</button>
 
 </body>
 </html>
