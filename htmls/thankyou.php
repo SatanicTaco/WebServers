@@ -38,7 +38,7 @@
                 //close connection 
                 mysqli_close($conn);
                 //blinks LED on pin 22 once the form is submtted
-	        	`gpio blink 22`;
+	        	//`gpio blink 22`;
             ?>
     </body>
 </html>
