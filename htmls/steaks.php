@@ -44,10 +44,10 @@
   <h3>Tell me more about yourself!</h3>
 
   <form name="subs" action="thankyou.php" method="POST" onsubmit="return validate();">
-    <input type="text" name="first" id="first"> <br> <br>
-    <input type="text" name="last" id="last"> <br> <br>
-    <input type="text" name="cut" id="cut"> <br> <br>
-    <input type="text" name="doneness" id="doneness"> <br> <br>
+    <label for="name">First Name: </label><input type="text" name="first" id="first"> <br> <br>
+    <label for="name">Last Name: </label><input type="text" name="last" id="last"> <br> <br>
+    <label for="name">Favorite Cut: </label><input type="text" name="cut" id="cut"> <br> <br>
+    <label for="name">Favorite Doneness: </label> <input type="text" name="doneness" id="doneness"> <br> <br>
     <input class="button" type="submit" value="Google Search"> <!--checks function to verify for empty form-->
   </form>
 
