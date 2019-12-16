@@ -7,38 +7,27 @@
 
     <body>
             <?php 
-                //login credentials to db
                 $servername = "localhost";
                 $username = "php";
                 $password = "password";
                 $dbname = "steaks";
-                //store form inputs to variables
                 $first = htmlspecialchars($_POST['first']);
                 $last = htmlspecialchars($_POST['last']);
                 $doneness = htmlspecialchars($_POST['doneness']);
                 $cut = htmlspecialchars($_POST['cut']);
             ?>
-
-            <!--user confirmation message-->
-            <h3>Hello <?php echo $first ?> <?php echo $last ?>. </h3> </br>
-            Your favorite steak is a <?php echo $doneness ?> <?php echo $cut ?>. </br> </br>
-
+            <h3>Hello <?php echo $first ?> <?php echo $last ?>.</br>
+            Your favorite steak is a <?php echo $doneness ?> <?php echo $cut ?>. </br> </br></h3>
             <?php
-                //connection to db
                 $conn = mysqli_connect($servername, $username, $password, $dbname);
-                //insert data to db
                 $sql = "INSERT INTO steaks (first, last, cut, doneness)
                     VALUES ('{$first}', '{$last}', '{$cut}', '{$doneness}')";
-                //confirmation
                 if (mysqli_query($conn, $sql)) {
                     echo "Thank you for submitting your application.";
                 } else {
                     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
                 }
-                //close connection 
                 mysqli_close($conn);
-                //blinks LED on pin 22 once the form is submtted
-	        	//`gpio blink 22`;
             ?>
     </body>
 </html>
