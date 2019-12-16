@@ -10,11 +10,9 @@
   <p>
       Please choose one of the following links:
   </p>
-  <a href="htmls/SteakCuts.html">Steak Cuts!</a>
+  <a href="htmls/steaks.php">Steak!</a>
 
-  <a href="htmls/Doneness.html">Doneness!</a>
-
-  <a href="htmls/construction.html">Others!</a>
+  <a href="htmls/construction.php">Others!</a>
 
   <p>
     Your time is:
