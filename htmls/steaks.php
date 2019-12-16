@@ -48,7 +48,7 @@
     <label for="name">Last Name: </label><input type="text" name="last" id="last"> <br> <br>
     <label for="name">Favorite Cut: </label><input type="text" name="cut" id="cut"> <br> <br>
     <label for="name">Favorite Doneness: </label> <input type="text" name="doneness" id="doneness"> <br> <br>
-    <input class="button" type="submit" value="Submit"> <!--checks function to verify for empty form-->
+    <input class="button" type="submit" value="Submit">
   </form>
 
 </body>
