@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <title>thanks</title>
     </head>
-
     <body>
             <?php 
                 $servername = "localhost";
                 $username = "php";
                 $password = "password";
-                $dbname = "steaks";
+                $dbname = "project";
                 $first = htmlspecialchars($_POST['first']);
                 $last = htmlspecialchars($_POST['last']);
                 $doneness = htmlspecialchars($_POST['doneness']);
