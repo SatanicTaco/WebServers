@@ -43,7 +43,7 @@
 
   <h3>Tell me more about yourself!</h3>
 
-  <form name="subs" action="thankyou.php" method="POST" onsubmit="return validate()>
+  <form name="subs" action="thankyou.php" method="POST" onsubmit="return validate();">
     <input type="text" name="first" id="first"> <br> <br>
     <input type="text" name="last" id="last"> <br> <br>
     <input type="text" name="cut" id="cut"> <br> <br>
