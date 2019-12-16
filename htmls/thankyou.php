@@ -13,10 +13,10 @@
                 $password = "password";
                 $dbname = "steaks";
                 //store form inputs to variables
-                $first = ($_GET['first']);
-                $last = ($_GET['last']);
-                $doneness = ($_GET['doneness']);
-                $cut = ($_GET['cut']);
+                $first = htmlspecialchars($_POST['first']);
+                $last = htmlspecialchars($_POST['last']);
+                $doneness = htmlspecialchars($_POST['doneness']);
+                $cut = htmlspecialchars($_POST['cut']);
             ?>
 
             <!--user confirmation message-->
@@ -27,8 +27,8 @@
                 //connection to db
                 $conn = mysqli_connect($servername, $username, $password, $dbname);
                 //insert data to db
-                $sql = "SELECT first, last, cut, doneness FROM steaks;";
-                $sql_insert = "INSERT INTO steaks (first,last,cut,doneness) values('$first','$last','$cut','$doneness');";
+                $sql = "INSERT INTO steaks (first, last, cut, doneness)
+                    VALUES ('{$first}', '{$last}', '{$cut}', '{$doneness}')";
                 //confirmation
                 if (mysqli_query($conn, $sql)) {
                     echo "Thank you for submitting your application.";

@@ -43,7 +43,7 @@
 
   <h3>Tell me more about yourself!</h3>
 
-  <form action="thankyou.php" method="get" onsubmit="return validate();">
+  <form action="thankyou.php" method="post" onsubmit="return validate();">
     <label for="name">First Name: </label><input id="first" type="text" /><br /><br />
     <label for="name">Last Name: </label><input id="last" type="text" /><br /><br />
     <label for="name">Favorite Cut: </label><input id="cut" type="text" /><br /><br />
