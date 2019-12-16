@@ -27,8 +27,8 @@
                 //connection to db
                 $conn = mysqli_connect($servername, $username, $password, $dbname);
                 //insert data to db
-                $sql = "INSERT INTO steaks (first, last, cut, doneness)
-                    VALUES ('{$first}', '{$last}', '{$cut}', '{$doneness}')";
+                $sql = "SELECT first, last, cut, doneness FROM steaks;";
+                $sql_insert = "INSERT INTO steaks (first,last,cut,doneness) values('$first','$last','$cut','$doneness');";
                 //confirmation
                 if (mysqli_query($conn, $sql)) {
                     echo "Thank you for submitting your application.";
